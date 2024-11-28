@@ -9,7 +9,7 @@ export default function Main() {
             <div className="card-img">
               <img src="https://picsum.photos/600/400" alt="img" />
             </div>
-            <div className="">
+            <div className="card-body">
               <h3>Titolo del post</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
