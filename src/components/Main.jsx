@@ -1,3 +1,5 @@
+import Button from "./Button/Button";
+
 export default function Main() {
   return (
     <>
@@ -7,7 +9,7 @@ export default function Main() {
             <div className="card-img">
               <img src="https://picsum.photos/600/400" alt="img" />
             </div>
-            <div className="card-body">
+            <div className="">
               <h3>Titolo del post</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
@@ -15,6 +17,7 @@ export default function Main() {
                 Soluta quos obcaecati labore iusto neque recusandae fugiat eaque
                 debitis praesentium veniam?
               </p>
+              <Button />
             </div>
           </div>
         </div>
