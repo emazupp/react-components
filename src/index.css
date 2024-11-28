@@ -11,6 +11,7 @@
   padding: 10px 0;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 body {
@@ -19,6 +20,10 @@ body {
 }
 
 /* header */
+
+.header {
+  height: 50px;
+}
 
 /* main */
 
@@ -44,3 +49,12 @@ body {
 }
 
 /* footer */
+
+.footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+}

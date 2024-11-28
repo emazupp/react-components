@@ -1,7 +1,7 @@
 export default function Main() {
   return (
     <>
-      <div className="container">
+      <div className="container main">
         <div className="card-container">
           <div className="card">
             <div className="card-img">
